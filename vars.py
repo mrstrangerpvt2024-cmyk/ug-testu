@@ -2,8 +2,8 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "21567814"))
-API_HASH = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
+API_ID = int(os.environ.get("API_ID", "22470912"))
+API_HASH = os.environ.get("API_HASH", "511be78079ed5d4bd4c967bc7b5ee023")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 CREDIT = os.environ.get("CREDIT", "€ समययात्री £")
@@ -16,7 +16,7 @@ MONGO_URL = os.environ.get(
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "UGxPRO")  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "6126688051"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7678862761"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "6126688051").split()]  # Default to owner ID
 
 # Channel Configuration
@@ -68,6 +68,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
